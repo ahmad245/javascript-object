@@ -1,0 +1,60 @@
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+body{
+    padding: 2rem 0;
+}
+.card{
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+button {
+    font: inherit;
+    border: 1px solid #ff0062;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background: #ff0062;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .form-control{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: #494949;
+    outline: none !important;
+  }
+  .form-control:focus {
+    outline: none !important;
+    border-color: #ff0062;
+
+  }
+  #movie-list {
+    display: none;
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  #movie-list.visible {
+    display: block;
+  }
+  #movie-list li {
+    margin: 1rem;
+    color: #ff0062;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
